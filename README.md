@@ -18,6 +18,7 @@ The challenge focuses on evaluating food hygiene ratings provided by the UK Food
 ### Part 1: Database Setup
 
 mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
+
 The NoSQL_setup_starter.ipynb file is dedicated to setting up the database. 
 It includes tasks such as importing the dataset, introducing a new restaurant ("Panang Flavours"), and deleting specific documents per client requirements.
 
